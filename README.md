@@ -1,18 +1,15 @@
 # Text Analysis
 This project is designed to perform text analysis on financial texts to drive sentimental opinions, sentiment scores, readability, passive words, personal pronouns, and more.
-```
 Sentimental Analysis
 Sentimental analysis is a process of determining the sentiment of a piece of writing, whether it's positive, negative, or neutral. To perform this analysis, the following steps are taken:
 
-```
-
-Cleaning using Stop Words Lists
+### Cleaning using Stop Words Lists
 The Stop Words Lists, located in the folder StopWords, are used to clean the text by excluding the words found in the list.
 
-Creating a dictionary of Positive and Negative words
+### Creating a dictionary of Positive and Negative words
 The Master Dictionary, located in the folder MasterDictionary, is used to create a dictionary of Positive and Negative words. Only those words that are not found in the Stop Words Lists are added to the dictionary.
 
-Extracting Derived variables
+### Extracting Derived variables
 The text is converted into a list of tokens using the nltk tokenize module. We then calculate the four variables described below:
 
 Positive Score: This score is calculated by assigning the value of +1 for each word if found in the Positive Dictionary and then adding up all the values.
