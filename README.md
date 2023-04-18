@@ -1,8 +1,10 @@
 # Text Analysis
 This project is designed to perform text analysis on financial texts to drive sentimental opinions, sentiment scores, readability, passive words, personal pronouns, and more.
-
+```
 Sentimental Analysis
 Sentimental analysis is a process of determining the sentiment of a piece of writing, whether it's positive, negative, or neutral. To perform this analysis, the following steps are taken:
+
+```
 
 Cleaning using Stop Words Lists
 The Stop Words Lists, located in the folder StopWords, are used to clean the text by excluding the words found in the list.
