@@ -1,4 +1,4 @@
-#Text Analysis
+# Text Analysis
 This project is designed to perform text analysis on financial texts to drive sentimental opinions, sentiment scores, readability, passive words, personal pronouns, and more.
 
 Sentimental Analysis
